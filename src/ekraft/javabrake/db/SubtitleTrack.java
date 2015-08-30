@@ -5,11 +5,11 @@ import lombok.Data;
 
 
 /**
- * Created by ekraft on 8/29/15
+ * Created by ekraft on 8/30/15
  */
 @Data
-public class Chapter {
+public class SubtitleTrack {
 
   private int index;
-  private int duration;
+  private String language;
 }
